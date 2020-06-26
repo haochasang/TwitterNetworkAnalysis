@@ -20,6 +20,7 @@ This project is a demo project I did to consolidate my knowledge on graph theory
 * The `TweetRead.py` script is used to download tweets containing the keyword "DataScience" via Twitter Search API.
 * The `GetFriends.py` script is used to get the authers of the tweets and find their "friends" on Twitter.
 * The `TweetText.py` script is used to get only the text part of the tweets and save the results to a csv file.
+* The `Credentials.py` script is a sample credential file, you should replace the strings with your own Twitter developer credentials.
 ###
 * The `tweets_DataScience.json` file is the output of `TweetRead.py`. It contains all the tweets downloaded.
 * The `userList.txt` file is the output of `GetFriends.py`. It contains all the follower-followee pairs.
