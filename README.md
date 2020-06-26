@@ -20,11 +20,11 @@ This project is a demo project I did to consolidate my knowledge on graph theory
 * The `TweetRead.py` script is used to download tweets containing the keyword "DataScience" via Twitter Search API.
 * The `GetFriends.py` script is used to get the authers of the tweets and find their "friends" on Twitter.
 * The `TweetText.py` script is used to get only the text part of the tweets and save the results to a csv file.
-<br>
+<br />
 * The `tweets_DataScience.json` file is the output of `TweetRead.py`. It contains all the tweets downloaded.
 * The `userList.txt` file is the output of `GetFriends.py`. It contains all the follower-followee pairs.
 * The `TweetText.csv` file is the data output of `TweetText.py`. it contains the raw text of all tweets.
-<br>
+<br />
 * The `NetworkAnalysis.ipynb` script is the main script for part one. It creates the network using `networkx` library and find the netwrok influencers.
 * The `TweetTopicModeling.ipynb` script is the main script for part two. It applies some basic exploratory data analysis on hashtags and uses LDA & NMF algorithms to generate topcis.
 
